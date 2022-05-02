@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Booking Form</title>
+</head>
+<body style="background-color: rgb(200, 197, 214);">
+    
+    <h1 align="center"><ins>Airline Booking System</ins></h1><br>
+    <img src="./image.jpg" alt="image not working"width="650" height="500" align="right">
+    <form> 
+            <fieldset style="width: 600px;">
+            <legend><b>Personal Details</b></legend><br>
+            <label>First Name <input type="text" required></label>&nbsp;&nbsp;
+            <label>Last Name <input type="text" required></label>
+            <br><br>
+            <label>Phone No <input type="number"></label>&nbsp;&nbsp;
+            <label>Email  <input type="email"></label><br><br>
+            <label>Gender : </label>
+            <label>Male <input type="radio" name="radio"></label>
+            <label>Female  <input type="radio" name="radio"></label>
+            <label>Other <input type="radio" name="radio"></label>
+            <br><br>
+        </fieldset>
+        <br>
+    
+        <fieldset style="width: 600px;">
+            <legend><b>Booking Details</b></legend><br>
+            <label>From</label>
+            <select required>
+                <option value=""></option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="New Delhi">New Delhi</option>
+                <option value="Bengalure">Bengalure</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Pune">Pune</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Jaipur">Jaipur</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>To</label>
+            <select required>
+                <option value=""></option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="New Delhi">New Delhi</option>
+                <option value="Bengalure">Bengalure</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Pune">Pune</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Jaipur">Jaipur</option>
+            </select>
+            <br><br>
+            <label>Select Your Fare :</label>
+            One Way<input type="radio" name="radio1" required></label>
+            Round Trip<input type="radio" name="radio1"><br><br>
+            <label>Preferred Airline :</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Air India<input type="checkbox" name="Airline"></label>
+            <label>Air Asia<input type="checkbox" name="Airline"></label>
+            <label>Go First<input type="checkbox" name="Airline"></label>
+            <label>Indigo<input type="checkbox" name="Airline"></label>
+            <br><br>
+            <label>Travel Class</label>
+            <select required>
+                <option value=""></option>
+                <option value="First Class">First Class</option>
+                <option value="Business">Business</option>
+                <option value="Preminum Economy">Preminum Economy</option>
+                <option value="Economy">Economy</option>
+            </select><br>
+            </fieldset>
+            <br>
+            <fieldset style="width: 600px;">  
+                <legend><b>Date and Timing</b></legend>
+                <label>Depature Date:</label>
+                <input type="date" required>&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>Depature Time:</label>
+                <input type="time" name="time" required>
+                <br><br>
+            <label>Adults(12+ yrs):<input max="5" type="number" required></label>
+            <label>Children(2-11 yrs):<input max="5" type="number" required></label>
+            <br><br>
+            </fieldset>
+            <br><br>
+        
+        <input style="margin-left: 13rem;" type="submit">
+        <input  type="reset">
+    </form>   
+</body>
+</html>
